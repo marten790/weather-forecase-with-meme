@@ -2,6 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project setup
+
+1. You will need to register and get a API keys at: 
+- [openweathermap](https://openweathermap.org/)
+- [giphy](https://developers.giphy.com/)
+
+This will allow you to get the weather and the randomly generated gif.
+
+2. Create a .env file in the root of your project and add 2 variables like below:
+   
+`REACT_APP_WEATHER_API_KEY = 'yourApiKeyGoesHere'
+REACT_APP_GIPHY_API_KEY = 'yourApiKeyGoesHere'`
+
+3. Run npm install to install all npm packages
+4. Run npm start and wait for the project to start and open a browser window at Open [http://localhost:3000](http://localhost:3000)
+
 ## Available Scripts
 
 In the project directory, you can run:
